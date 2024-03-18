@@ -18,5 +18,9 @@ class Program
 
         int age = 25;
         Console.WriteLine(age);
+
+        string name;
+        name = "Jonas";
+        Console.WriteLine(name);
     }
 }
