@@ -10,7 +10,7 @@ class Program
         if (!estaVivo)
         {
             vida++;
-            Console.WriteLine("El ha ganado una vida");
+            Console.WriteLine("El gato ha ganado una vida");
             Console.WriteLine($"La vida del gato aumento a: {vida}");
         }
         else
