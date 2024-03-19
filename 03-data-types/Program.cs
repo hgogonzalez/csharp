@@ -1,4 +1,4 @@
-﻿namespace _03_data_types;
+﻿namespace HelloWorld;
 
 class Program
 {

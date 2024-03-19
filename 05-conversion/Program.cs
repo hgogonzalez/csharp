@@ -1,4 +1,4 @@
-﻿namespace _05_conversion;
+﻿namespace HelloWorld;
 
 class Program
 {
