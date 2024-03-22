@@ -6,5 +6,7 @@ class Program
     {
         Owner owner1 = new Owner();
         owner1.SetName("");
+        Console.WriteLine(owner1.GetName());
+
     }
 }

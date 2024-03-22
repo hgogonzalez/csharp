@@ -1,8 +1,8 @@
 public class Owner
 {
     // Properties
-    public string Name { get; set; }
-    public string Country { get; set; }
+    public string? Name { get; set; }
+    public string? Country { get; set; }
 
     // Constructor
     public Owner(string name, string country)
@@ -11,18 +11,22 @@ public class Owner
         Country = country;
     }
 
-    public Owner(){}
-
-    public void SetName(string name)
+    // Constructor sin parámetros
+    public Owner()
     {
-        if (name == "")
-        {
-            Name = "Binyamin Hoffman";
-        }
-        else
-        {
-            Name = name;
-        }
+        Name = "";
+        Country = "";
     }
 
+    // Método para establecer el nombre
+    public void SetName(string name)
+    {
+        Name = string.IsNullOrEmpty(name) ? "Binyamin Hoffman" : name;
+    }
+
+    // Método para obtener el nombre
+    public string? GetName()
+    {
+        return Name;
+    }
 }
