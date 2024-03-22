@@ -1,8 +1,8 @@
 public class User
 {
     // Properties
-    private string? _name { get; set; }
-    private string? _country { get; set; }
+    public string? _name { get; set; }
+    public string? _country { get; set; }
 
     // Constructor
     public User(string name, string country)
