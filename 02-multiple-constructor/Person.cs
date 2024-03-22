@@ -13,8 +13,8 @@ public class Person
 
     public Person()
     {
-        Name = "Binyamin";
-        Country = "Hoffmann";
+        Name = "Binyamin Hoffmann";
+        Country = "Deutschland";
     }
 
     // Method
