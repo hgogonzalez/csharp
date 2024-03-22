@@ -1,17 +1,17 @@
-public class Cat {
+public class Person {
     // Properties
     public string Name { get; set; }
     public string Country { get; set; }
 
     // Constructor
-    public Cat(string name, string country) {
+    public Person(string name, string country) {
         Name = name;
         Country = country;
     }
        
     // Method
-    public void Meow() {
-        Console.WriteLine($"{Name} says: Meow!");
+    public void Hello() {
+        Console.WriteLine($"Hello, I'm {Name} from {Country}");
     }
     
     // Method
