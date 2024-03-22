@@ -1,4 +1,4 @@
-﻿namespace _01_oop_intro;
+﻿namespace HelloWorld;
 
 class Program
 {
